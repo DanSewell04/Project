@@ -362,6 +362,10 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/Enemy/EnemyAttack.cs"
+"Assets/Enemy/HitManager.cs"
+"Assets/Player/Scripts/HealthManager.cs"
+"Assets/Player/Scripts/PlayerAttack.cs"
 "Assets/Player/Scripts/PlayerLocomotion.cs"
 "Assets/Player/Scripts/SwitchPerspective.cs"
 -langversion:9.0
