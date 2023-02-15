@@ -10,6 +10,7 @@ public class HitManager : MonoBehaviour
     void Hit(float rawDamage)
     {
         hitPoints -= rawDamage;
+        Debug.Log("Enemy Hit:" + hitPoints.ToString());
         if (hitPoints <= 0)
         {
             Invoke("SelfTerminate", 0f);

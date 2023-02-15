@@ -57,11 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Player\Scripts\SwitchPerspective.cs" />
-    <Compile Include="Assets\Player\Scripts\PlayerLocomotion.cs" />
-    <Compile Include="Assets\Player\Scripts\HealthManager.cs" />
     <Compile Include="Assets\Player\Scripts\PlayerAttack.cs" />
     <Compile Include="Assets\Enemy\HitManager.cs" />
+    <Compile Include="Assets\Player\Scripts\HealthManager.cs" />
+    <Compile Include="Assets\Player\Scripts\PlayerLocomotion.cs" />
     <Compile Include="Assets\Enemy\EnemyAttack.cs" />
+    <Compile Include="Assets\ItemSystem\Scripts\Item.cs" />
+    <Compile Include="Assets\ItemSystem\Scripts\Interactor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

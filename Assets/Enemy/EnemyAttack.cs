@@ -42,7 +42,7 @@ public class EnemyAttack : MonoBehaviour
 
     void LookAtTarget()
     {
-        //this.transform.LookAt(playerTransform.position);
+        this.transform.LookAt(playerTransform.position);
         Vector3 lookVector = playerTransform.position - transform.position;
         lookVector.y = transform.position.y;
         Quaternion rotation = Quaternion.LookRotation(lookVector);

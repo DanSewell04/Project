@@ -364,6 +364,8 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/Enemy/EnemyAttack.cs"
 "Assets/Enemy/HitManager.cs"
+"Assets/ItemSystem/Scripts/Interactor.cs"
+"Assets/ItemSystem/Scripts/Item.cs"
 "Assets/Player/Scripts/HealthManager.cs"
 "Assets/Player/Scripts/PlayerAttack.cs"
 "Assets/Player/Scripts/PlayerLocomotion.cs"
